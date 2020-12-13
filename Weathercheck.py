@@ -1,3 +1,6 @@
+# prepared by Marcin Idzik (Pr0soft)
+
+
 import requests
 
 while True:
