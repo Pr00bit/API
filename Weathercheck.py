@@ -1,11 +1,11 @@
 # prepared by Marcin Idzik (Pr0soft)
 
 
-import requests
+import requests        #we import the libarary for making HTTP requests in Python
 
-while True:
+while True:            #endless loop
 	
-	print()
+	print()        # to add empty line to console
 	user_input = input('What is city name for which to check temperature: ')    # takes input from user for a city value
 	response = requests.get('http://api.openweathermap.org/data/2.5/weather?q='+user_input+'&APPID=eba1d2a48d8ef5168c95997d840b2fd2') # connectcs to openweathermap.org API to get data
 
